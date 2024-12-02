@@ -66,7 +66,7 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
       <input {...getInputProps()} />
       <Button type='button' className={cn("uploader-button", className)}>
         <Image src={"/assets/icons/upload.svg"} alt="upload" width={24} height={24}/>
-        <p>Upload files</p>
+        Upload files
       </Button>
       {files.length > 0 && (
         <ul className="uploader-preview-list">
